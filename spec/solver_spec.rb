@@ -14,7 +14,7 @@ describe Solver do
     end
 
     it 'Factorial of -1 must raise Invalid Number Exception' do
-      expect{@solver.factorial(-1)}.to raise_error('Invalid number!')
+      expect { @solver.factorial(-1) }.to raise_error('Invalid number!')
     end
   end
 
