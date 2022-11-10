@@ -9,7 +9,7 @@ describe Solver do
   end
 
   it 'reverse of hello must equal olleh' do
-    expect(@solver.reverse('hello')).to be 'olleh'
+    expect(@solver.reverse('hello')).to eq('olleh')
   end
 
 end
