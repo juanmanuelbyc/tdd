@@ -1,7 +1,3 @@
-# frozen_string_literal: true
-
-# rubocop:disable Style/Documentation
-
 class Solver
   def factorial(num)
     raise 'Invalid number!' unless num >= 0
