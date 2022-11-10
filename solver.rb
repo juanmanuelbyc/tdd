@@ -3,6 +3,7 @@ class Solver
     raise 'Invalid number!' unless num >= 0
 
     fact = 1
+
     (1..num).each do |i|
       fact *= i
     end
